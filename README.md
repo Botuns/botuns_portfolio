@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Olajide Abdul-Qahar's Personal Portfolio Website
 
-## Getting Started
+Welcome to the official repository of **Olajide Abdul-Qahar's** personal portfolio website. This project showcases my work, skills, and experiences as a Full Stack Engineer.
 
-First, run the development server:
+## 🌟 About
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This portfolio website serves as a digital space to highlight my journey as a software developer, my past projects, technical skills, and professional experiences. Built in **2024**, it will continue to evolve as I grow and take on new challenges in my career.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Live Site:** [botuns_portfolio](https://botuns.vercel.app)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔧 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework:** Next.js
+- **Content:** MDX (Markdown with JSX support)
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel
 
-## Learn More
+## 🛠️ Features
 
-To learn more about Next.js, take a look at the following resources:
+- Dynamic project showcase with MDX support
+- Responsive design for all devices
+- Modern and clean UI/UX
+- Contact form integration for easy communication
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To run this project locally:
 
-## Deploy on Vercel
+1. Clone the repository:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone https://github.com/Botuns/botuns_portfolio.git
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Navigate to the project directory:
+
+   ```bash
+   cd botuns_portfolio
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the portfolio.
+
+## 📝 License
+
+This project is licensed under the MIT License. Feel free to use any part of the code for your own projects!
+
+---
+
+Feel free to customize it further if you'd like!
