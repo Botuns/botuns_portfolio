@@ -51,7 +51,7 @@ export default function Navbar() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`text-sm ${
+                className={`text-sm font-bold font-[0.2px] ${
                   pathname === item.href
                     ? "text-primary font-medium"
                     : "text-muted-foreground hover:text-primary"
@@ -75,7 +75,7 @@ export default function Navbar() {
                   <Link
                     key={item.name}
                     href={item.href}
-                    className={`text-sm ${
+                    className={`text-sm font-bold ${
                       pathname === item.href
                         ? "text-primary font-medium"
                         : "text-muted-foreground hover:text-primary"
