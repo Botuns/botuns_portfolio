@@ -16,7 +16,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight leading-3 text-[54px]">
+          <h1 className="text-3xl sm:text-3xl md:text-5xl font-bold mb-4 leading-tight leading-3 text-[54px]">
             <span className="text-primary">Bridging</span> gap
             <br />
             between <span className="text-primary">people</span>
@@ -24,9 +24,8 @@ export default function HeroSection() {
             and <span className="text-primary underline">applications</span>.
           </h1>
           <p className="text-base sm:text-lg text-muted-foreground mb-6">
-            Hello there 👋, I&apos;m AbdulQahar. I&apos;m a full stack software
-            engineer passionate about creating elegant solutions to complex
-            problems.
+            Hello there! 👋 I&apos;m AbdulQahar, a full stack software engineer
+            passionate about creating elegant solutions to complex problems.
           </p>
           <p className="text-lg sm:text-xl font-semibold mb-6">
             Full Stack Engineer
