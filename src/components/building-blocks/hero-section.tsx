@@ -77,10 +77,12 @@ export default function HeroSection() {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-[16rem] md:h-[30rem] lg:w-96 lg:h-[30rem]">
+            {/* https://images8.alphacoders.com/136/1362042.png */}
             <Image
-              src="/me.png"
+              src="https://w0.peakpx.com/wallpaper/334/1004/HD-wallpaper-tomioka-anime-demon-slayer-sword-tomioka-giyu.jpg"
               alt="AbdulQahar"
               fill
+              // layout="responsive"
               className="object-cover rounded-3xl shadow-lg"
             />
           </div>
