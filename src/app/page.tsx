@@ -5,7 +5,7 @@ import Projects from "@/components/building-blocks/projects";
 export default function Home() {
   return (
     <div className="sm:px-4 md:px-16 ">
-      <div className="bg-[#fcfbfe]">
+      <div className="">
         <HeroSection />
       </div>
       <Projects />

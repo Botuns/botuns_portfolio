@@ -16,12 +16,10 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h1 className="text-3xl sm:text-3xl md:text-5xl font-bold mb-4 leading-tight leading-3 text-[54px]">
-            <span className="text-primary">Bridging</span> gap
-            <br />
-            between <span className="text-primary">people</span>
-            <br />
-            and <span className="text-primary underline">applications</span>.
+          <h1 className="text-3xl sm:text-3xl md:text-5xl font-bold mb-4 leading-tight leading-3 text-[54px] max-sm:text-[48px] max-sm:text-start max-sm:text-balance max-sm:ml-[4%] max-sm:mt-[4%]">
+            <span className="text-primary">Bridging</span> gap between{" "}
+            <span className="text-primary">people</span> and{" "}
+            <span className="text-primary underline">applications</span>.
           </h1>
           <p className="text-base sm:text-lg text-muted-foreground mb-6">
             Hello there! 👋 I&apos;m AbdulQahar, a full stack software engineer

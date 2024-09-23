@@ -8,6 +8,7 @@ import { Menu } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { ModeToggle } from "../ui/mode-toggle";
 
 const navItems = [
   { name: "About", href: "/about" },
@@ -47,6 +48,7 @@ export default function Navbar() {
             </div>
           </Link>
           <div className="hidden md:flex items-center space-x-4">
+            <ModeToggle />
             {navItems.map((item) => (
               <Link
                 key={item.name}
@@ -71,6 +73,7 @@ export default function Navbar() {
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
               <nav className="flex flex-col gap-4">
+                <ModeToggle />
                 {navItems.map((item) => (
                   <Link
                     key={item.name}
